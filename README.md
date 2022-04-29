@@ -8,7 +8,7 @@
 ## Built With
 
 - [x] HTML, CSS and JavaScript
-- [x] Linters: Lighthouse, Webhint, Stylelint and ESlint
+- [x] Linters: Lighthouse, Webhint, Stylelint and ESLint
 - [x] VS Code
 
 ## Website Mockup 📱 💻 🖥️
@@ -95,7 +95,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse
+- [Microverse](https://www.microverse.org/)
 - Code Reviewers
 - Coding Partners
 
