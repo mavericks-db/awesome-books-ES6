@@ -15,7 +15,7 @@ body {
   flex-direction: column;
   align-items: center;
   overflow-y: scroll;
-  background-color: #005555;
+  background-color: #055;
   color: white;
 }
 
@@ -197,7 +197,6 @@ footer {
   padding: 0.5rem;
   position: fixed;
   bottom: 0;
-  padding: 0.5rem;
   text-align: center;
 }
 footer a {
