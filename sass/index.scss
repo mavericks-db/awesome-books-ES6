@@ -15,6 +15,8 @@ body {
   flex-direction: column;
   align-items: center;
   overflow-y: scroll;
+  background-color: #005555;
+  color: white;
 }
 
 /* Header Section */
@@ -24,8 +26,8 @@ header {
   justify-content: space-between;
   align-items: center;
   border: 3px solid black;
-  padding: 0.5rem;
-  width: 90%;
+  padding: 1rem 0.5rem;
+  width: 100%;
 }
 
 h2 {
@@ -35,6 +37,7 @@ h2 {
 nav ul {
   display: flex;
   flex-direction: row;
+  font-size: 1rem;
 }
 
 nav ul li {
@@ -44,22 +47,25 @@ nav ul li {
 
 .linkBtn {
   text-decoration: none;
-  color: black;
+  color: #c6c6c6;
   border: none;
   background-color: transparent;
   box-shadow: none;
   cursor: pointer;
+  font-size: 1rem;
 }
 
 .active {
-  color: blue;
+  color: white;
 }
 
 .dateDisplay {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  width: 90%;
+  width: 100%;
+  font-size: 1rem;
+  margin: 1rem 2rem 0 0;
 }
 
 h1 {
@@ -69,6 +75,7 @@ h1 {
 button {
   border: 2px solid black;
   box-shadow: 2px 2px 1px black;
+  padding: 0.25rem;
 }
 
 input {
@@ -85,12 +92,14 @@ input {
   margin-right: 2rem;
   margin-top: 1rem;
   text-align: center;
+  color: black;
 }
 
 .list h2 {
   font-size: 3rem;
   margin-bottom: 3rem;
   text-align: center;
+  color: white;
 }
 
 .collection div {
@@ -101,8 +110,12 @@ input {
   height: 40px;
 }
 
+.collection div:nth-child(even) {
+  background-color: white;
+}
+
 .collection div:nth-child(odd) {
-  background-color: rgb(198, 198, 198);
+  background-color: #c6c6c6;
 }
 
 .collection p {
@@ -124,7 +137,7 @@ input {
 /* Add New Section */
 .addNew {
   display: none;
-  width: 40%;
+  width: 75%;
   text-align: center;
   margin-top: 1rem;
 }
@@ -179,9 +192,34 @@ input {
 
 /* Footer Section */
 footer {
-  width: 90%;
+  width: 100%;
   border: 3px solid black;
   padding: 0.5rem;
   position: fixed;
   bottom: 0;
+  padding: 0.5rem;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  img {
+    width: 1rem;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  nav ul {
+    font-size: 1.5rem;
+  }
+
+  .addNew {
+    display: none;
+    width: 40%;
+    text-align: center;
+    margin-top: 1rem;
+  }
 }

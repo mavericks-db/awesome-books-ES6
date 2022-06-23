@@ -5,6 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <meta name="title" property="og:title" content="Awesome Books">
+  <meta property="og:type" content="Article">
+  <meta name="image" property="og:image" content="../app_screenshot.png">
+  <meta name="description" property="og:description" content="Microverse Module 02 Project: This is an educational project to make a simple website that displays a list of books and allows you to add and remove books from that list. The goal is to make it more organized by using modules and practice the ES6 syntax. Built with HTML, Sass and JavaScript.">
+  <meta name="author" content="Mavericks Balitaan">
   <link rel="stylesheet" href="./css/index.css">
   <script src="./index.js" type="module"></script>
 </head>
@@ -17,7 +22,7 @@
         <li><button type="button" class="linkBtn active" id="listBtn">List</button>
         </li>
         <li>|</li>
-        <li><button type="button" class="linkBtn" id="addNewBtn">Add new</button></li>
+        <li><button type="button" class="linkBtn" id="addNewBtn">Add New</button></li>
         <li>|</li>
         <li><button type="button" class="linkBtn" id="contactBtn">Contact</button></li>
       </ul>
@@ -26,7 +31,7 @@
   <div class="dateDisplay"></div>
   <!-- List Section -->
   <section class="list" id="list">
-    <h2>All awesome books</h2>
+    <h2>Your Awesome Books</h2>
     <div class="collection">
     </div>
   </section>
@@ -54,7 +59,15 @@
   </section>
   <!-- Footer Section -->
   <footer>
-    <p>Copyright ©️ 2022 Mavericks & Imran</p>
+    <span>Copyright ©️ 2022</span>
+    <span>
+      <a href="https://github.com/mavericks-db">mavericks-db</a>
+    </span>
+    <span>&</span>
+    <span>
+      <a href="https://github.com/iBel251">iBel251</a>
+    </span>
+    <span><img src="./assets/github.svg" alt=""></span>
   </footer>
 </body>
 </html>
